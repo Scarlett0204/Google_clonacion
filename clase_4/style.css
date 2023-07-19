@@ -1,0 +1,222 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: content-box;
+}
+
+
+header {
+    height: 67px;
+    
+}
+
+nav {
+    height: 47px;
+   /* border: solid 1px;*/
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 8px;
+}
+
+.container-image img {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+   
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.links{
+    margin-right: 15px;
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+text-decoration: underline;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-logo img{
+    width: 272px;
+}
+
+.main-buscador{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-buscador-google{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-buscador input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.main-buscador-google:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.lupa{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.microfono{
+    background-image: url(https://seeklogo.com/images/G/google-mic-logo-EF440C9A6F-seeklogo.com.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.main-botones{
+    width: 530px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-botones div{
+    display: inline-block;
+}
+
+.main-botones button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+.main-botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #202124;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: lfr lfr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-izquierda{
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-derecha{
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+/*footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: lfr lfr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}*/
+
+/*footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-izquierda{
+    justify-content: left;
+}
+
+.footer-izquierda a:hover {
+    text-decoration: underline;
+    }
+
+.footer-izquierda a{
+        text-decoration: none;
+}
+
+footer .footer-derecha{
+    justify-content: right;
+}
+
+.footer-derecha a:hover {
+    text-decoration: underline;
+    }
+
+.footer-derecha a{
+        text-decoration: none;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}*/
